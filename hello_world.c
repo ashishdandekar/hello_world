@@ -17,7 +17,9 @@ void display(char *name) {
 
 int getval ()
 {
-	return random ();
+	int i;
+	i = random ();
+	return i;
 }
 
 int main() {
